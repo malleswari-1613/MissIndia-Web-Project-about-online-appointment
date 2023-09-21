@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUS</title>
+    <link rel="icon" href="logo-removebg-preview.png"> 
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet"  href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <input type="checkbox" name="" id="chk1">
+        <img id="img-logo" src="logo-removebg-preview.png" height="50px">
+        <div class="logo"><h1 id="logo">Miss India</h1></div>
+            <div class="search-box">
+                <form action="">
+                    <input type="text" name="search" id="srch" placeholder="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" id="services">Services</a>
+                    <ul class="dropdown-menu" id="Menu">
+                        <li>
+                            <a href="facial.html" class="dropdown-item">Facial</a>
+                        </li>
+                        <li>
+                            <a href="threading.html" class="dropdown-item">Threading</a>
+                        </li>
+                        <li>
+                            <a href="massage.html" class="dropdown-item">Massages | Scrub | Polish</a>
+                        </li>
+                        <li>
+                            <a href="manicure.html" class="dropdown-item">Manicure & Pedicure</a>
+                        </li>
+                        <li>
+                            <a href="nails.html" class="dropdown-item">Nails</a>
+                        </li>
+                        <li>
+                            <a href="mehandi.html" class="dropdown-item">MakeUp & Mahandi</a>
+                        </li>
+                        <li>
+                            <a href="bridal.html" class="dropdown-item">Bridal</a>
+                        </li>
+                        <li>
+                            <a href="haircut.html" class="dropdown-item">Hair Cut</a>
+                        </li>
+                        <li>
+                            <a href="haricolor.html" class="dropdown-item">Hair Color</a>
+                        </li>
+                        <li>
+                            <a href="hairstraight.html" class="dropdown-item">Hair Straightening</a>
+                        </li>
+                        <li>
+                            <a href="hairrejuvenation.html" class="dropdown-item">Hair Rejuvenation</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Aboutus.html">AboutUs</a></li>
+                <li><a href="contact.html">ContactUS</a></li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+            <div class="menu">
+                <label for="chk1">
+                    <i class="fa fa-bars" id="link" onclick="hideLink()"></i>
+                </label>
+            </div>
+    </header>
+    <!-- <div>
+        <img src="https://lh3.googleusercontent.com/p/AF1QipMqYnn0T9Or7JGJEuu-7NCBbLVVvnegpLH1CnrC=w1080-h608-p-no-v0" width="100%" height="400px">
+    </div> -->
+    <div class="card bg-dark text-white">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipMqYnn0T9Or7JGJEuu-7NCBbLVVvnegpLH1CnrC=w1080-h608-p-no-v0" width="100%" height="400px" class="card-img" alt="Stony Beach"/>
+        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.3)">
+          <h1 class="card-title">About Us</h1>
+          <p class="card-text">
+                Miss India was conceived out of every girl’s need for beautification
+          </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col" id="first">
+                <center><p id="text">We are providing best services for more than 40 yrs in the market.</p></center>  
+            </div>
+            <div class="col" id="second">
+                <img class="image rounded-circle" src="https://techsquadteam.com/assets/profile/blogimages/15ef18d25c3c9cfef0b0aff23927d6ab.png" alt="Image" height="300px" width="600px">
+                <div class="middle">
+                    <div class="text"><i href="services.html">Services</i> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="row">
+            <div class="col">
+                <img src="https://www.anoos.com/assets/img/vision-1.png" alt="">
+            </div>
+            <div class="col" id="vision">
+                <center><h4>Our Vision</h4></center>
+                <center>To deliver best services through our state-of- art facilities. We make sure to meet International standards in providing world-class salon and clinical services for both men and women</center>
+            </div>
+        </div>
+    </div>
+    <div class="container-3">
+        <div class="row">
+            <div class="col">
+                <center><h3>Our Story</h3></center>
+                <center><h4>Since its Founding in 1982, Miss India has reached many significant milestones in its growth story</h4></center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="box">
+                    <center class="head">1982</center>
+                    <center class="head-text">Miss india began as a small beauty parlor in a garage at Gandhi Nagar, Vijayawada</center>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box">
+                    <center class="head">1986-89</center>
+                    <center class="head-text">Started the hairdressing, facials,nail technology, hairdyeing in foreign way.</center>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="box">
+                    <center class="head">1989</center>
+                    <center class="head-text">Introduced Unwanted Hair Removal service ,bridal makeup, medicure and pedicure (U.S. technology) at the Vijayawada and Hyderabad in foreign way.</center>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box">
+                    <center class="head">1992</center>
+                    <center class="head-text">Converted to a Pvt. Ltd. company and introduced weight management (German technology), anti ageing facelift services, and unwanted hair removal </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="box">
+                    <center class="head">1995-96</center>
+                    <center class="head-text">Introduced skin treatments and all clinical services along with salon services, all under one roof</center>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box">
+                    <center class="head">1999</center>
+                    <center class="head-text">Imported the first laser machinery for hair removal,Launched herbal products </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="box">
+                    <center class="head">2000</center>
+                    <center class="head-text">Launched Miss India Herbal Day Spa (Skin Retreat) in Hyderabad.</center>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box">
+                    <center class="head">2016</center>
+                    <center class="head-text">Miss india open branches in bengalore</center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <center><img class="image"  src="https://www.anoos.com/assets/img/women-empowerment.jpg" alt="team"></center>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="icon" href="logo-removebg-preview.png" > 
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+    </div>
+     <div class="form">
+        <form action="signup.php" method='POST'>
+            <center><h2>SignUp</h2></center><br>
+
+            <label for="fname">Enter Your  Name:</label><br>
+            <input type="text" id="fname"  name="fname" placeholder="  Enter Your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email"  name="email" placeholder="  Enter Your Email" required><br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="  Enter Your Phone Number" required><br><br>
+
+            <label for="pwd">Create Password</label><br>
+            <input type="password" id="pwd" name="pwd" placeholder="  Atleast 6-characters" required><br><br>
+
+            <label for="Rpwd">Re-enter Password</label><br>
+            <input type="password" id="Rpwd" name="Rpwd" placeholder="  Re-enter your password" required><br><br>
+
+            <input type="submit" value="SignUp"><br><br>
+
+            Already have account? <a id="login" href="login.html">Login hear</a><br>
+            <p>or connect with</p><br>
+            <div class="icon">
+                <a href=""><img src="google.svg" class="social-link" height="20px" width="20px"></a>
+                <a href=""><img src="facebook.svg" class="social-link"  height="20px" width="20px"></a>
+                <a href=""><img src="instagram.svg" class="social-link"  height="20px" width="20px"></a>
+                <a href=""><img src="twitter.svg" class="social-link" height="20px" width="20px"></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

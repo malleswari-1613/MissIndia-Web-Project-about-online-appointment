@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threading</title>
+    <link rel="icon" href="logo-removebg-preview.png"> 
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="threading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <input type="checkbox" name="" id="chk1">
+        <img id="img-logo" src="logo-removebg-preview.png" height="50px">
+        <div class="logo"><h1 id="logo">Miss India</h1></div>
+            <div class="search-box">
+                <form action="">
+                    <input type="text" name="search" id="srch" placeholder="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" id="services">Services</a>
+                    <ul class="dropdown-menu" id="Menu">
+                        <li>
+                            <a href="facial.html" class="dropdown-item">Facial</a>
+                        </li>
+                        <li>
+                            <a href="threading.html" class="dropdown-item">Threading</a>
+                        </li>
+                        <li>
+                            <a href="massage.html" class="dropdown-item">Massages | Scrub | Polish</a>
+                        </li>
+                        <li>
+                            <a href="manicure.html" class="dropdown-item">Manicure & Pedicure</a>
+                        </li>
+                        <li>
+                            <a href="nails.html" class="dropdown-item">Nails</a>
+                        </li>
+                        <li>
+                            <a href="mehandi.html" class="dropdown-item">MakeUp & Mahandi</a>
+                        </li>
+                        <li>
+                            <a href="bridal.html" class="dropdown-item">Bridal</a>
+                        </li>
+                        <li>
+                            <a href="haircut.html" class="dropdown-item">Hair Cut</a>
+                        </li>
+                        <li>
+                            <a href="haricolor.html" class="dropdown-item">Hair Color</a>
+                        </li>
+                        <li>
+                            <a href="hairstraight.html" class="dropdown-item">Hair Straightening</a>
+                        </li>
+                        <li>
+                            <a href="hairrejuvenation.html" class="dropdown-item">Hair Rejuvenation</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Aboutus.html">AboutUs</a></li>
+                <li><a href="contact.html">ContactUS</a></li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+            <div class="menu">
+                <label for="chk1">
+                    <i class="fa fa-bars" id="link" onclick="hideLink()"></i>
+                </label>
+            </div>
+    </header>
+    <div class="card bg-dark text-white">
+        <img src="https://www.anoos.com/assets/img/threading1.jpg" width="100%" height="400px" class="card-img" alt="Stony Beach"/>
+        <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.3)">
+          <h1 class="card-title">Threading | Waxing</h1>
+          <p class="card-text">
+            Miss India collection of beauty hygiene services are designed to help you look your very best. Whether it is getting a threading, waxing or any other services the Miss India team of trained aestheticians will take care of all your needs while you sit back and relax.
+          </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col" id="first">
+                <p id="heading1">Threading</p>
+                <div class="row">
+                    <div class="col">
+                        <p class="small-head">Our Services</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="small-head1">Prices</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Eye Brows</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">50</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Upper Lip</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">40</p>
+                    </div>   
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Chin</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">50</p>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">SideLocks</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">60</p>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">ForeHead</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">60</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Full Face</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="second">
+                <h5 id="heading2">Waxing</h5>
+                <div class="row">
+                    <div class="col">
+                        <p class="small-head">Our Services</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="small-head1">Regular/Flavoured/Premium ₹</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Full Hands</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">200/300/500</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Full Legs</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">300/400/600</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Half Hands</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">150/200/300</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Half Legs</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">200/300/500</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Full Back/p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">350/450/600</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Full Front</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">350/450/600</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Bikini Line </p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">350/450/600</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Under Arms </p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">70/100/150</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Sidelocks </p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">80/100/150</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Upper Lip</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">50/70/100</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Forehead </p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">50/70/100</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Chin</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">50/70/100</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Full Face </p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">150/200/250</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Full Body</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">1500/2000/2500</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="p-item">Bikini Wax</p>
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        <p class="price">2000/2500/3000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

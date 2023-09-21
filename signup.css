@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    height: 100%;
+}
+.container{
+    height: 100%;
+    background-image: url("https://img.freepik.com/free-photo/top-view-assortment-make-up-beauty-products_23-2148620013.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(8px);
+   
+}
+
+.form{
+ 
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: absolute;
+    border: 1px double  rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) ;
+    width: 30%;
+  
+    
+}
+.form a{
+   
+    text-decoration: none;
+    color:rgba(14, 140, 145, 0.884);
+}
+
+input[type=password],input[type=text],input[type=submit],input[type=tel],input[type=email]{
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+    border: 1px solid rgba(14, 140, 145, 0.884);
+    height: 25px;
+    border-radius: 10px;
+}
+input[type=text]:hover{
+    background-color: rgba(14, 140, 145, 0.884);
+    border: 1px solid rgba(14, 140, 145, 0.884);
+    cursor: pointer;
+    height: 30px;
+}
+input[type=password]:hover{
+    background-color: rgba(14, 140, 145, 0.884);
+    border: 1px solid rgba(14, 140, 145, 0.884);
+    cursor: pointer;
+    height: 30px;
+}
+input[type=email]:hover{
+    background-color: rgba(14, 140, 145, 0.884);
+    border: 1px solid rgba(14, 140, 145, 0.884);
+    cursor: pointer;
+    height: 30px;
+}
+input[type=tel]:hover{
+    background-color: rgba(14, 140, 145, 0.884);
+    border: 1px solid rgba(14, 140, 145, 0.884);
+    cursor: pointer;
+    height: 30px;
+}
+
+input[type=submit]:hover{
+    background-color: rgba(14, 140, 145, 0.884);
+    border: 1px solid rgba(14, 140, 145, 0.884);
+    cursor: pointer;
+    height: 30px;
+}
+
+.form p{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+p:before,
+p:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+.icon a{
+    margin: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+#login:hover{
+    font-weight: bold;
+    font-size: large;
+}

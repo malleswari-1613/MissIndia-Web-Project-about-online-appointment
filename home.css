@@ -1,0 +1,360 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#img-logo{
+    padding-left: 40px;
+}
+.head{
+    
+    font-weight:bold;
+    text-shadow: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logo{
+    color:purple;
+    font-weight:bold;
+    text-shadow: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#services{
+    color: purple;
+    font-weight: bold;
+}
+.miss{
+    height: 650px;
+    background: url(https://content3.jdmagicbox.com/comp/thoothukudi/v2/9999px461.x461.110104153804.n2v2/catalogue/apsara-s-aroma-beauty-care-tuticorin-ho-thoothukudi-beauty-parlours-zpaks5hihv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+@media(max-height:650px){
+    miss{
+        background-color: gray;
+    }
+}
+
+header{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(230, 176, 235, 0.5);
+    /* background:linear-gradient(to right,pink,deeppink) ; */
+}
+#chk1{
+    display: none;
+}
+i{
+    color:purple;
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color:purple;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+.search-box input{
+    width:100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 30px;
+    color:purple;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 40px;
+
+}
+.search-box button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top:0;
+    right:0;
+    transform: scale(0.9);
+    background: pink;
+}
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:purple;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+headerul li a:hover{
+    border-bottom: 2px solid cadetblue;
+}
+header .menu{
+    font-size:2.5em;
+    display: none;
+}
+@media(max-width:1000px){
+    .search-box button{
+        position: absolute;
+    }
+    header ul{
+        position: fixed;
+        top:100px;
+        right: -100;
+        background: rgba(230, 176, 235, 0.5);
+        height:calc(100vh - 100px);
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        transition: right:0.5s linear;
+    }
+    header .menu{
+        display: block;
+        width: 100px;
+        text-align: center;
+    }
+    #chk1:checked ~ul{
+        right: 0;
+    }
+}
+@media(max-width:600px){
+    header .logo{
+        font-size: 10px;
+        margin-left: 8px;
+    }
+    header ul{
+        width: 100%;
+    }
+}
+.beauty{
+    padding-top: 250px;
+    font-size: 40px;
+    font-family:sans-serif;
+    padding-left: 100px;
+}
+.PHILOSOPHY{
+    padding-top: 60px;
+    padding-bottom: 35px;
+    font-size: 30px;
+    color: deeppink;
+    font-weight: 40px;
+}
+.card-container{
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+
+.foot{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: rgba(255, 192, 203, 0.7);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    background: url(http://organicbeautyparlour.com/wp-content/uploads/2016/03/header-image-footer-darkened-1440x960.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#icon{
+    padding-left: 20px;
+}
+#img{
+    height:350px;
+    width: 100%;
+    
+}
+#team{
+    background-color: pink;
+    color:purple;
+    border: pink;
+    border-radius: 50%;
+}
+#team:hover{
+    height:40px;
+    width: 150px;
+}
+#title{
+    color: purple;
+    font-weight:bold;
+    text-shadow: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Menu{
+    background-color: deeppink;
+}
+#Menu li a{
+    color: white;
+    font-weight: bold;
+}
+#Menu li a:hover{
+    background-color:deeppink;
+    color:purple;
+}
+/* /* .dropbtn {
+    background-color:white ;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+  }
+  
+  /* The container <div> - needed to position the dropup content */
+  /* .dropup {
+    position: relative;
+    display: block;
+  }
+   */
+  /* Dropup content (Hidden by Default) */
+  /* .dropup-content {
+    display: none;
+    position: absolute;
+    left: 150px;
+    bottom: -100px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+  
+  /* Links inside the dropup */
+  /* .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } */
+  
+  /* Change color of dropup links on hover */
+  /* .dropup-content a:hover {background-color:pink} */
+  
+  /* Show the dropup menu on hover */
+  /* .dropup:hover .dropup-content {
+    display: block;
+  } */
+  
+  /* Change the background color of the dropup button when the dropup content is shown */
+  /* .dropup:hover .dropbtn {
+    background-color: #2980B9;
+  }*/ 
+/* .beauty-menu{
+    display: none;
+}
+#beauty-service :hover .beauty-menu{
+    display: block;
+    position: absolute;
+    background:#ffc0cb;
+    margin-top: -40px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+#beauty-service:hover .beauty-menu ul{
+    display: block;
+}
+#beauty-service:hover .beauty-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+}
+.hair-menu{
+    display: none;
+}
+#beauty-service :hover .hair-menu{
+    display: block;
+    position: absolute;
+    background:#ffc0cb;
+    margin-top: -40px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+#beauty-service:hover .hair-menu ul{
+    display: block;
+}
+#beauty-service:hover .hair-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

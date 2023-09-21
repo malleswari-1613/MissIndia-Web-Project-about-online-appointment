@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    height: 100%;
+}
+.container{
+    height: 100%;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/508/876/desktop-wallpaper-beauty-parlour-model-beauty-parlour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+}
+.container1 a{
+    text-decoration: none;
+    color: white;
+}
+.container1 span{
+  
+    
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(149, 218, 72, 0.5);
+    padding: 10px;
+    position: absolute;
+    border: 1px double  rgba(149, 218, 72, 0.5);
+    border-radius: 10px;
+    top:50%;
+    left:30%;
+    transform: translate(-50%, -50%) ;
+}
+.container1 p{
+    color:white;
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top:40%;
+    left:30%;
+    transform: translate(-50%, -50%) ;
+}
+.container1 span:hover{
+    font-size: 20px;
+    font-weight: bold;
+}

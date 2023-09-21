@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 200px;
+    
+}
+.h h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 200px;
+}
+#address{
+    box-shadow: 0px 0px 3px 3px rgba(120,120,120, 0.5);
+    height:300px;
+    width:300px;
+}
+#address h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+    padding-top: 50px;
+}
+@media only screen and (max-width:900px){
+    #googlemap img{
+        height:300px;
+        width:500px;
+        padding-bottom: 50px;
+    }
+    #address{
+        height:300px;
+        width:500px;
+    }
+    .row{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.card{
+    margin-bottom: 90px;
+}
+.card-title{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.card-text{
+    text-align: center;
+    font-weight:normal;
+    font-size: 20px;
+}
+#heading1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#first{
+    box-shadow: 0px 0px 3px rgba(120,120,120,0.5);
+    margin: 10px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.price{
+    color: deeppink;
+    font-weight: bold;
+    text-align: center;
+}
+.p-item{
+    color: black;
+    padding-left: 10px;
+}

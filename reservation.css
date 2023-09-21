@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#reservation-head{
+    padding-top: 150px;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+#redirect{
+    text-decoration: none;
+    color: black;
+}

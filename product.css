@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;  
+   
+}
+.product{
+    height:300px;
+    width: 100%;
+    background: url('http://www.organicbeautyparlour.com/wp-content/uploads/2016/03/header-image-products-1440x500.jpg');
+    background-repeat: no-repeat;
+    padding-top:150px ;
+    width:100%;
+}
+.container{
+    border: 3px solid white;
+    padding:10px;
+    color: white;
+    
+}
+.container h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.safe{
+    padding-top:100px;
+    padding-bottom: 30px;
+    width:100%;
+}
+.safe p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para{
+    padding-bottom: 100px;
+    width: 100%;
+}
+.continer-product{
+    padding-top:150px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 50px;
+}
+.continer-product h4{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#one:hover{
+  
+    padding-left: 40px;
+}
+#one img:hover{
+    height:350px;
+    width: 550px;
+}
+#two:hover{
+  
+    padding-right: 40px;
+}
+#two img:hover{
+    height:350px;
+    width: 550px;
+}
+#four img:hover{
+    height:350px;
+    width: 550px;
+}
+#four{
+    padding-bottom: 100px;
+}

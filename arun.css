@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#car{
+   padding-top: 100px;
+}
+.header1{
+    padding: 100px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+.member{
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.appointment{
+    border: 0.5px solid deeppink;
+    box-shadow: 0px 0px 3px 3px rgba(120,120,120,0.5);
+    margin: 100px;
+    background-color:rgba(1, 1, 1, 0.05)
+}
+.head{
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+.appointment form{
+    padding: 150px;
+}
+#guest{
+    padding: 20px;
+}
+.appointment form button{
+    width: 100%;
+    background: transparent;
+    border: 1px solid black;
+    padding: 8px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.appointment form button p{
+    padding-top: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.formtext{
+    color: black;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list-name-field{
+    padding: 0 10px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 35px;
+}
+#submit{
+    border-radius: 50px;
+}
+#guest{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.appointment form button:hover{
+    background-color: rgba(255, 20, 147,0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list-name-field:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: rgba(255, 20, 147,0.5);
+}
